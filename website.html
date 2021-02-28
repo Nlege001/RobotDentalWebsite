@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title> Naol and bezanete </title>
+        <link rel = "stylesheet" href = "web.css">
+        <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name = "viewport" content="width= device-width, initial-scale = 1"> 
+    </head>
+    <body>
+        <section id = "banner">
+            <img src = "images/rhlogo2.png" class= "logo">
+            <div class = "banner-text">
+                <h1>Rhohobot Dental Clinic</h1>
+                <p>The place where you will smile more</p>
+                <div class = "banner-btn">
+                    <a href = "#"><span></span>Mebrat Hayl branch</a>
+                    <a href = "#"><span></span>Summit branch</a>
+                </div>
+            </div>
+        </section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href = "#">Home</a></li>
+                    <li><a href = "#">Features</a></li>
+                    <li><a href = "#">Book Appointment</a></li>
+                    <li><a href = "#">Service</a></li>
+                    <li><a href = "#">Social</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id = "menuBtn">
+            <img src = "images/menu.png" id= "menu">
+        </div>
+        <!--Features-->
+        <section id = "feature">
+            <div class="title-text">
+                <p>Features</p>
+                <h1>More about Us</h1>
+            </div>
+            <div class= "feature-box">
+                 <div class="feature">
+                     <h1>Welcome to our website </h1>
+                     <div class = "features-desc">
+                         <div class = "feature-icon">
+                            <i class="fa fa-hospital-o"></i>
+                         </div>
+                         <div class = "feature-text">
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam impedit</p>
+                         </div>
+                     </div>
+
+                     <h1>Pre-booking online </h1>
+                     <div class = "features-desc">
+                         <div class = "feature-icon">
+                            <i class="fa fa-check-square-o"></i>
+                         </div>
+                         <div class = "feature-text">
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam impedit</p>
+                         </div>
+                     </div>
+
+                     <h1>Affordable cost </h1>
+                     <div class = "features-desc">
+                         <div class = "feature-icon">
+                            <i class="fa fa-inr"></i>
+                         </div>
+                         <div class = "feature-text">
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsam impedit</p>
+                         </div>
+                     </div>
+                </div>
+                <div class="feature-img">
+                    <img src = "images/45.jpg">
+               </div>
+            </div>
+        </section>
+
+        <!--service-->
+        <section id = "service">
+            <div class="title-text">
+                <p>Services</p>
+                <h1>We provide better</h1>
+            </div>
+
+        </section>
+
+
+
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            
+            sideNav.style.right == "-250px";
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                    menu.src = "images/close.png";
+                }
+                else{
+                    sideNav.style.right = "-250";
+                    menu.src = "images/menu.png";
+                }
+            }
+        </script>
+    </body>
+</html>
+         
