@@ -6,4 +6,4 @@
     
     
 ## Snippet of the website
-
+<img src = https://github.com/Nlege001/RobotDentalWebsite/blob/main/ezgif.com-optimize.gif>
